@@ -2,13 +2,13 @@
 
 This project is a graphical simulation of an interaction between a bee and a bear, implemented using threads in C# for the subject of Operating Systems Fundamentals corresponding to the semester 2022-2023/II. The program simulates the behavior of the bees producing honey and the bear consuming honey from a jar.
 
-**Overview:**
+**Overview:**  
 The program consists of two main classes: OsoYAbejas and Buffer<T>, along with a Windows Forms UI class Form1. The OsoYAbejas class represents the interaction between bees and a bear, where bees produce honey and the bear consumes it. The Buffer<T> class acts as a buffer to store and retrieve items between the producer (bees) and the consumer (bear).
 
-**User Interface:**
+**User Interface:**  
 The Form1 class is a Windows Forms UI that provides a graphical representation of the honey production process. It displays the current capacity of the honey buffer, the number of bees, and the state of the bear. The UI also includes images of bees, a bear, and a honey jar to visually represent the system's state.
   
-**Usage:**
+**Usage:**  
 - Run the application.
 - Click the "Start" button to initiate the honey production process.
 - The UI will display the current state of the honey buffer, bees, and bear.
